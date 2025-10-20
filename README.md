@@ -47,7 +47,48 @@ Consumers with sensitive skin and allergies face a significant challenge in iden
 The process of tracking ingredients, cross-referencing them with known allergens, and correlating them to specific skin reactions is manually intensive and often unreliable. This leaves users feeling frustrated and disempowered, turning the proactive management of their skin health into a constant struggle. Derme aims to solve this by providing a centralized, intelligent platform to simplify ingredient analysis and allergy management.
 
 ---
+Derme Project Status & Setup Checklist
+This checklist tracks the completion of initial project setup and progress toward the defined Core System Goals.
 
+1. Installation and Setup
+
+These tasks confirm the repository is ready for local development.
+
+[ ] Clone the repository: git clone ...
+
+[ ] Create a conda environment: conda create -n derme python=3.9
+
+[ ] Activate the environment: conda activate derme
+
+[ ] Install dependencies: pip install -r requirements.txt
+
+[ ] Run the application successfully locally: python app.py
+
+2. Core System Goals (Development Progress)
+
+These tasks track the implementation status of the primary features outlined in the project overview.
+
+[ ] Scan Products: Fully implement logic to allow users to scan product barcodes or upload ingredient label images.
+
+[ ] Analyze Ingredients: Fully implement ingredient cross-referencing against the public allergen database.
+
+[ ] Personalized Analysis: Implement cross-referencing against a user's personal allergy list.
+
+[ ] Track Symptoms: Fully implement the user journal feature for logging skin reactions and linking them to specific products.
+
+[ ] Provide Alerts: Fully implement environmental data integration (pollen, air quality) to notify users about potential flare-ups.
+
+[ ] Offer Emergency Support: Fully implement the feature to integrate emergency services and share allergy information.
+
+3. Documentation and Review
+
+These tasks ensure the project information remains current and accessible.
+
+[ ] Review and update the Prerequisites list if any tools or versions change.
+
+[ ] Review and confirm the accuracy of the Team Members list.
+
+[ ] Ensure the Demo link to Hugging Face Spaces is active and up-to-date.
 ## Core System Goals
 
 Our goal is to build a system that can:
